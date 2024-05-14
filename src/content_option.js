@@ -98,66 +98,25 @@ const services = [    {
 // Données de Portfolio en préparation
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: process.env.PUBLIC_URL + '/cci-france.png',
+        description: "Chambre de Commerce et de l'Industrie pour les Nuits de l'orientation avec implantation d'un ChatBot by Hello Charly. (ElasticSearch, CMS Drupal)",
+        link: "https://www.cci.fr/ressources/orientation-professionnelle",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: process.env.PUBLIC_URL + '/Hathyre.png',
+        description: "[EN COURS] - Projet E-Commerce , boutique officiel Hathyre en production. (React JS , Node JS , Mongo DB , Stripe) ",
+        link: "https://hathyre-web.onrender.com/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: process.env.PUBLIC_URL + '/ecranbleu.png',
+        description: "Design et refonte de site Ecran Bleu XV. (PHP)",
+        link: "https://volt380.com",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+        img: process.env.PUBLIC_URL + '/tic-tac.png',
+        description: "Jeu Tic-tac-Toe - Qui arrivera à aligner son triplé ? (Python, Flask)",
+        link: "https://game-tictactoe.onrender.com/",
+    }
 ];
 
 const contactConfig = {
